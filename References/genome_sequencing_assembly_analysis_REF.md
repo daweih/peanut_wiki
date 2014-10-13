@@ -1,59 +1,59 @@
 基因组测序、组装与分析总结
           genome_project101.sente6lib
 ## 文章目录
-    - [ ] 1.1 获取基因组大小
-    - [ ] 1.2 杂合度估计
-    - [ ] 1.3 是否有遗传图谱可用
-    - [ ] 1.4 生物学问题的调研
-    - [ ] 4.1 组装相关综述：
-    - [ ] 4.2 纠错软件：
-    - [ ] 4.3 组装软件比较
-    - [ ] 4.4 组装质量评估
+- 1.1 获取基因组大小
+- 1.2 杂合度估计
+- 1.3 是否有遗传图谱可用
+- 1.4 生物学问题的调研
+- 4.1 组装相关综述：
+- 4.2 纠错软件：
+- 4.3 组装软件比较
+- 4.4 组装质量评估
 ## 1. 测序前的准备
-    - [-] 1.1 获取基因组大小
-        - [ ] 基因组大小的获取关系到对以后组装结果的大小的正确与否判断；基因组太大（>10Gb），超出了目前denovo组
-              装基因组软件的对机器内存的要求，从客观条件上讲是无法实现组装的。
-        - [ ] 一般物种的基因组大小可以从（http://www.genomesize.com/
-              ）这个数据库查到。如果没有搜录，需要考虑通过实验（流式细胞仪）获得基因组大小。
-        - [+] 1.1.1 流式细胞仪
-                  flow cytometer
-            - [+] Yoshida, S., J. K. Ishida, et al. (2010). "A
-                  full-length enriched cDNA library and expressed
-                  sequence tag analysis of the parasitic weed,
-                  Striga hermonthica." BMC Plant Biol 10: 55.
-        - [ ] 1.1.2 福尔根染色
-            - [ ] Gregory, T. (2005). The evolution of the genome,
-                  Academic Press.
-        - [+] 1.1.3 定量pcr估计
-                  Real-time PCR
-            - [+] Wilhelm, J., A. Pingoud, et al. (2003).
-                  "Real-time PCR-based method for the estimation of
-                  genome sizes." Nucleic Acids Res 31(10): e56.
-            - [+] Jeyaprakash, A. and M. A. Hoy (2009). "The
-                  nuclear genome of the phytoseiid Metaseiulus
-                  occidentalis (Acari: Phytoseiidae) is among the
-                  smallest known in arthropods." Exp Appl Acarol
-                  47(4): 263-273.
-        - [+] 1.1.4 Kmer
-            - [+] Kim, E. B., X. Fang, et al. (2011). "Genome
-                  sequencing reveals insights into physiology and
-                  longevity of the naked mole rat." Nature
-                  479(7372): 223-227.
-    - [-] 1.2 杂合度估计
-        - [ ] 杂合度对基因组组装的影响主要体现在不能合并姊妹染色体，杂合度高的区域，会把两条姊妹染色单体都组装出来，从而造
-              成组装的基因组偏大于实际的基因组大小。
-        - [ ] 一般是通过SSR在测序亲本的子代中检查SSR的多态性。杂合度如果高于0.5%，则认为组装有一定难度。杂合度高
-              于1%则很难组装出来。
-        - [+] 杂和度估计一般通过kmer分析来做，这里有一个例子：http://www.nature.com/nature
-              /journal/vaop/ncurrent/full/nature11413.html
-        - [ ] 降低杂合度可以通过很多代近交来实现。
-        - [ ] 杂合度高，并不是说组装不出来，而是说，装出来的序列不适用于后续的生物学分析。比如拷贝数、基因完整结构。
-    - [ ] 1.3 是否有遗传图谱可用
-        - [ ] 随着测序对质量要求越来越高和相关技术的逐渐成熟，遗传图谱也快成了denovo基因组的必须组成。构建遗传图构建
-              相关概念可以参考这本书（The handbook of plant genome mapping:
-              genetic and physical mapping ）
-    - [ ] 1.4 生物学问题的调研
-        - [ ] 这一步也是很重要的
+- [-] 1.1 获取基因组大小
+    - [ ] 基因组大小的获取关系到对以后组装结果的大小的正确与否判断；基因组太大（>10Gb），超出了目前denovo组
+          装基因组软件的对机器内存的要求，从客观条件上讲是无法实现组装的。
+    - [ ] 一般物种的基因组大小可以从（http://www.genomesize.com/
+          ）这个数据库查到。如果没有搜录，需要考虑通过实验（流式细胞仪）获得基因组大小。
+    - [+] 1.1.1 流式细胞仪
+              flow cytometer
+        - [+] Yoshida, S., J. K. Ishida, et al. (2010). "A
+              full-length enriched cDNA library and expressed
+              sequence tag analysis of the parasitic weed,
+              Striga hermonthica." BMC Plant Biol 10: 55.
+    - [ ] 1.1.2 福尔根染色
+        - [ ] Gregory, T. (2005). The evolution of the genome,
+              Academic Press.
+    - [+] 1.1.3 定量pcr估计
+              Real-time PCR
+        - [+] Wilhelm, J., A. Pingoud, et al. (2003).
+              "Real-time PCR-based method for the estimation of
+              genome sizes." Nucleic Acids Res 31(10): e56.
+        - [+] Jeyaprakash, A. and M. A. Hoy (2009). "The
+              nuclear genome of the phytoseiid Metaseiulus
+              occidentalis (Acari: Phytoseiidae) is among the
+              smallest known in arthropods." Exp Appl Acarol
+              47(4): 263-273.
+    - [+] 1.1.4 Kmer
+        - [+] Kim, E. B., X. Fang, et al. (2011). "Genome
+              sequencing reveals insights into physiology and
+              longevity of the naked mole rat." Nature
+              479(7372): 223-227.
+- [-] 1.2 杂合度估计
+    - [ ] 杂合度对基因组组装的影响主要体现在不能合并姊妹染色体，杂合度高的区域，会把两条姊妹染色单体都组装出来，从而造
+          成组装的基因组偏大于实际的基因组大小。
+    - [ ] 一般是通过SSR在测序亲本的子代中检查SSR的多态性。杂合度如果高于0.5%，则认为组装有一定难度。杂合度高
+          于1%则很难组装出来。
+    - [+] 杂和度估计一般通过kmer分析来做，这里有一个例子：http://www.nature.com/nature
+          /journal/vaop/ncurrent/full/nature11413.html
+    - [ ] 降低杂合度可以通过很多代近交来实现。
+    - [ ] 杂合度高，并不是说组装不出来，而是说，装出来的序列不适用于后续的生物学分析。比如拷贝数、基因完整结构。
+- [ ] 1.3 是否有遗传图谱可用
+    - [ ] 随着测序对质量要求越来越高和相关技术的逐渐成熟，遗传图谱也快成了denovo基因组的必须组成。构建遗传图构建
+          相关概念可以参考这本书（The handbook of plant genome mapping:
+          genetic and physical mapping ）
+- [ ] 1.4 生物学问题的调研
+    - [ ] 这一步也是很重要的
 ## 2. 测序样品准备
     - [ ] 确定第一步没问题，就意味着这个物种是可以尝试测序的。测序样品对一些物种也是很大问题的，某些物种取样本身就是一个挑战的
           问题。
