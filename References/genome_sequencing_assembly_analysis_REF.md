@@ -149,4 +149,5 @@
 - [ ] Grbic, M., T. Van Leeuwen, et al. (2011). "The genome of
       Tetranychus urticae reveals herbivorous pest
       adaptations." Nature 479(7374): 487-492.
+
 ## 以上内容转载自：测序中国seq.cn（http://seq.cn/4607-48597）
