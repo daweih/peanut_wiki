@@ -69,7 +69,7 @@
 - [ ] 不言而喻，后者花费是相当高的。
 
 ## 4. 基因组组装
-- [-] 4.1 组装相关综述
+- [ ] 4.1 组装相关综述
     - [x] Li, Z., Y. Chen, et al. (2012). "Comparison of the
           two major classes of assembly algorithms:
           overlap-layout-consensus and de-bruijn-graph." Brief
@@ -119,7 +119,7 @@
     - [x] Earl, D. A., et al. (2011). "Assemblathon 1: A
           competitive assessment of de novo short read assembly
           methods." Genome Res.
-- [-] 4.4 组装质量评估
+- [ ] 4.4 组装质量评估
     - [x] Schatz, M. C., et al. (2011). "Hawkeye and AMOS:
           visualizing and assessing the quality of genome
           assemblies." Brief Bioinform.
