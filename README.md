@@ -6,6 +6,10 @@ Peanut Wiki is a wiki-based, publicly editable and open-content platform for com
 ## Related project:
 - [RiceWiki](http://ricewiki.big.ac.cn)
 
+## Resources:
+- [PeanutBase](http://peanutbase.org/home)
+
+
 ## About the members:
 - [DaWei Huang's Homepage at Zhang Zhang Lab](http://cbb.big.ac.cn/Dawei_Huang)
 - [Huaihua Liu]()
