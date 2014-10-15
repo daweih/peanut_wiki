@@ -11,6 +11,6 @@ Peanut Wiki is a wiki-based, publicly editable and open-content platform for com
 
 
 ## About the members:
-- [DaWei Huang's Homepage at Zhang Zhang Lab](http://cbb.big.ac.cn/Dawei_Huang)
-- [Huaihua Liu]()
+- [DaWei Huang, Ph.D.'s Homepage at Zhang Zhang Lab](http://cbb.big.ac.cn/Dawei_Huang)
+- [Huaihua Liu, Ph.D.]()
 
