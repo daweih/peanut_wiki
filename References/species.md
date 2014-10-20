@@ -10,33 +10,33 @@ Species of peanuts
 		- [x] SRA: 
 		- [x] assembly: peanutDB 
 - _**Arachis duranensis**_: (A progenitor (ikely contributed the **A genome**) of cultivated peanut, with sequenced genome)
- 	- [x] **genome**
-			- [ ] SRA
-			- [x] assembly
-				- peanutbase
+	- [x] **genome**
+		- [ ] SRA
+		- [x] assembly
+			- peanutbase
 	- [x] **transcriptome**
-		- [x] SRA: (SRX101812, SRX101811)
+    - [x] SRA: (SRX101812, SRX101811)
 		- [x] assembly: ncbi_BioProject74747, ncbi_BioProject50587
 - _Arachis ipaensis_: (A progenitor (ikely contributed the **B genome**) of cultivated peanut, with sequenced genome)
- 	- [x] genome
-			- [ ] SRA
-			- [x] assembly
-				- peanutbase
+	- [x] genome
+		- [ ] SRA
+		- [x] assembly
+			- peanutbase
 	- [ ] transcriptome
-			- [ ] SRA
-			- [ ] assembly
+		- [ ] SRA
+		- [ ] assembly
 - _Arachis monticola_: (A wild peanut relative, used in some studies of cultivated peanut)
- 	- [ ] genome
-			- [ ] SRA
-			- [ ] assembly
-				- peanutbase
+	- [ ] genome
+		- [ ] SRA
+		- [ ] assembly
+			- peanutbase
 	- [ ] transcriptome
-			- [ ] SRA
-			- [ ] assembly
+		- [ ] SRA
+		- [ ] assembly
 - _Arachis stenosperma_: (A wild peanut relative, used in some studies of cultivated peanut)
  	- [ ] genome
-			- [ ] SRA
-			- [ ] assembly
+		- [ ] SRA
+		- [ ] assembly
 	- [x] transcriptome
-			- [x] SRA: (SRX101809, SRX101810)
-			- [x] assembly: BioProject78245
+		- [x] SRA: (SRX101809, SRX101810)
+		- [x] assembly: BioProject78245
