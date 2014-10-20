@@ -9,7 +9,7 @@ Species of peanuts
 	- [x] transcriptome
 		- [x] SRA: 
 		- [x] assembly: peanutDB 
-	- [x] UniGene: ftp://ftp.ncbi.nih.gov/repository/UniGene/Arachis hypogaea/*
+	- [x] UniGene: ftp://ftp.ncbi.nih.gov/repository/UniGene/Arachis_hypogaea/*
 - _**Arachis duranensis**_: (A progenitor (ikely contributed the **A genome**) of cultivated peanut, with sequenced genome)
 	- [x] **genome**
 		- [ ] SRA
