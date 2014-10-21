@@ -5,6 +5,8 @@ Species of peanuts
 - _Arachis hypogaea_: (**Cultivated peanut**)
 	- [x] genome
 		- [x] SRA: SRX516262
+			- wget -nH -m –ftp-user=anonymous –ftp-password=anonymous ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR123/SRR1236437/SRR1236437.sra
+			- wget -nH -m –ftp-user=anonymous –ftp-password=anonymous ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR123/SRR1236438/SRR1236438.sra
 		- [ ] assembly
 	- [x] transcriptome
 		- [x] SRA: 
