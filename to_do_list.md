@@ -13,7 +13,6 @@
 			 - _glycine_max_
 			 - _Medicago truncatula_
 			 - _Phaseolus vulgaris_
-			 - _Phaseolus valgaris_
 		- [ ] pipeline with IC4R
 			 
 ## How to write in to do list
