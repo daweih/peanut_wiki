@@ -3,7 +3,8 @@
 	- [x] [data collecting](https://github.com/daweih/peanut_wiki/blob/master/References/species.md)
 	- [ ] mapping and annotation
 		- [x] blat mapping
-		- [ ] annotation
+		- [x] annotation: [sample of results](https://github.com/daweih/peanut_wiki/tree/master/pipeline/mapping_and_annotation/sample_data).
+		- [ ] parser for controlled vocabularies, e.g. GO, EC, etc.
 	- [ ] gene prediction.
 	- [ ] synteny analysis with other species
 		- [x] peanutbase species List
